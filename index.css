@@ -172,6 +172,10 @@ body {
 .siski {
   margin-left: 445px;
 }
+.arrow {
+  width: 50px;
+  height: 30px;
+}
 @media screen and (max-width: 1150px) {
   .my_photo {
     display: none;
@@ -307,5 +311,28 @@ body {
     width: 100%;
     height: 1500px;
     z-index: 1;
+  }
+  .arrow {
+    width: 30px;
+    height: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .white_box {
+    margin: 20px auto;
+  }
+  .header {
+    padding: 0;
+  }
+  .midle {
+    border-bottom-left-radius: 00px;
+  }
+  .it-diplomas-img {
+    margin-top: 15px;
+    height: 140px;
+    display: flex;
+  }
+  * {
+    max-height: 1900px;
   }
 }
